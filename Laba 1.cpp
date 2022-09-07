@@ -36,9 +36,18 @@ void thirt_coil()
 	int END = first + second + thirt + fourth;
 	cout << END;
 }
+void fourth_coil()
+{
+	int four; 
+	cin >> four;
+	int first = four / 100;
+	int second = (four % 100) * 100;
+	cout << first + second;
+}
 int main()
 {
 	first_coil();
 	second_coil();
 	thirt_coil();
+	fourth_coil();
 }
