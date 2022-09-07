@@ -34,7 +34,7 @@ void thirt_coil()
 	int thirt = ((four % 10000) / 1000) * 1000;
 	int fourth = four % 10;
 	int END = first + second + thirt + fourth;
-	cout >> END;
+	cout << END;
 }
 int main()
 {
